@@ -1,9 +1,11 @@
 <?php
-$nom=$HTTP_POST_VARS['nom'];
+$nom='';
+$nom=$POST['nom'];
+echo $nom;
 $mail=$HTTP_POST_VARS['mail'];
 $objet=$HTTP_POST_VARS['objet'];
 $message=$HTTP_POST_VARS['message'];
-$sexe=$HTTP_POST_VARS['sexe']
+$sexe=$HTTP_POST_VARS['sexe'];
 /////voici la version Mine
 $headers = "MIME-Version: 1.0\r\n";
 
