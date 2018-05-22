@@ -7,14 +7,39 @@
   </title>
 </head>
 <body>
-<form id="contact" method="post" action="envoi.php">
-                <p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" tabindex="1" /></p>
-        <p><label for="email">Email :</label><input type="text" id="email" name="email" tabindex="2" /></p>
-
-                            <p><label for="message">Message :</label><textarea id="message" name="message" tabindex="4" cols="50" rows="8"></textarea></p>
-
-    <div style="text-align:center;"><input type="submit" name="envoi" value=" Envoyer " /></div>
-</form>
+  <p align="center"><strong>Contact</strong></p>
+  <table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
+  <form action="envoi.php" method="post" enctype="application/x-www-form-urlencoded" name="formulaire">
+  <tr>
+  <td colspan="3"><strong>Envoyer un message</strong></td>
+  </tr>
+  <tr>
+  <td><div align="left">Votre nom :</div></td>
+  <td colspan="2"><input type="text" name="nom" size="45" maxlength="100"></td>
+  </tr>
+  <tr>
+  <td width="17%"><div align="left">Votre mail :</div></td>
+  <td colspan="2"><input type="text" name="mail" size="45" maxlength="100"></td>
+  </tr>
+  <tr>
+  <td><div align="left">Sujet : </div></td>
+  <td colspan="2"><input type="text" name="objet" size="45" maxlength="120"></td>
+  </tr>
+  <tr>
+  <td><div align="left">Message : </div></td>
+  <td colspan="2"><textarea name="message" cols="50" rows="10"></textarea></td>
+  </tr>
+  <tr>
+  <td></td>
+  <td width="42%"><center>
+  <input type="reset" name="Submit" value="Réinitialiser le formulaire">
+  </center></td>
+  <td width="41%"><center>
+  <input type="submit" name="Submit" value="Envoyer">
+  </center></td>
+  </tr>
+  </form>
+  </table>
 </body>
 <footer>
   <p>h</p>
