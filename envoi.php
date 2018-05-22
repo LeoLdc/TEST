@@ -1,6 +1,6 @@
 <?php
 $nom='';
-$nom=$POST['nom'];
+$nom=$_POST['nom'];
 echo $nom;
 $mail=$HTTP_POST_VARS['mail'];
 $objet=$HTTP_POST_VARS['objet'];
