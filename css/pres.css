@@ -1,0 +1,82 @@
+
+/*------------------------roue*/
+
+ul li{
+  list-style: none;
+  text-align: center;
+}
+
+
+.contenu{
+  height: 1000px;
+}
+
+.logo-spin{
+  z-index: 999;
+}
+
+.choix1 , .choix2 ,.choix3 ,.choix4 ,.choix5{
+  position: absolute;
+  z-index: 1;
+  width: 145px;
+  height: 80px;
+  background-color: #ed1651;
+  padding: 0 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.choix1 a,.choix2 a,.choix3 a,.choix4 a,.choix5 a{
+  font-size: 16px;
+  color: #fff;
+  line-height: 80px;
+  float: right;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.choix1{
+  top: 15%;
+  left: 13%;
+  transform: rotate(216deg);
+}
+.choix2{
+  top: 0%;
+  left: 55%;
+  transform: rotate(288deg);
+}
+.choix3{
+  top: 73%;
+  left: 13%;
+  transform: rotate(144deg);
+}
+.choix4{
+  top: 89%;
+  left: 54%;
+  transform: rotate(72deg);
+}
+.choix5{
+  top: 45%;
+  left: 76%;
+}
+
+.selectionmain:hover {
+  animation-play-state: paused;
+}
+
+.selectionmain {
+
+    position: absolute;
+    margin-top: 25%;
+    left: -120%;
+    -webkit-animation:spin 9s linear infinite;
+    -moz-animation:spin 9s linear infinite;
+    animation:spin 9s linear infinite;
+    animation-duration: 16s;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+
+/*------------------------texte-container*/

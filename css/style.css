@@ -1,0 +1,258 @@
+*{
+overflow-x :hidden;
+}
+
+p {
+  text-align: justify;
+}
+
+.border {
+  border: 1px solid #ffffff;
+}
+.border-right {
+  border-right: 1px solid #ffffff ;
+}
+
+h2 {
+  text-align: center;
+}
+
+.border-section {
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+
+.border-left {
+  border-left: 1px solid #ffffff;
+}
+
+#iframe {
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 3.5em;
+margin-top: 5px;
+}
+
+.bgred {
+  background-color: #b71c35;
+}
+
+.fix {
+  margin-left: 50%
+}
+.coll {
+  background-color: #4c4c4c;
+  box-shadow: inset 0px 2px 2px 0px #ffffff;
+  padding: 10px;
+  text-align: justify;
+}
+
+
+
+/* Footer */
+
+.backfooter{
+  background-color: #b2b2b2;
+}
+
+
+
+/* Logos partenaires*/
+
+.grandest{
+  width:23%;
+  height:17%;
+}
+
+.ardennemetropole{
+  width: 23%;
+  height: 17%;
+}
+
+.grandest, .ardennemetropole, .europesengage, .ue, .etat{
+  margin-top: 20px;
+}
+
+.grandest, .ardennemetropole, .europesengage, .ue, .etat{
+  margin-right: 25px;
+}
+
+.europesengage{
+  width: 12.6%;
+  height: 17%;
+
+}
+
+.ue{
+  width: 9.1%;
+  height: 12%;
+}
+
+.etat{
+  width: 12.1%;
+  height: 55%;
+}
+
+.logo-simplon{
+  height: 30%;
+  width: 8%;
+  padding-top: 0.5%;
+}
+
+/* Logos réseaux sociaux */
+
+#logotwitter{
+  margin-top: 10px;
+  margin-right:20px;
+  color: #1A97F0;
+  font-size: 40px;
+}
+
+#fblogo{
+  margin-top: 10px;
+  margin-right:20px;
+  color: #3F5CA0;
+  font-size: 40px;
+}
+
+/* Textes et titres */
+
+
+footer h1{
+  padding-top: 2%;
+  font-weight: 100;
+  font-size: 2rem;
+  color: white;
+}
+
+footer h2{
+  font-size: 20px;
+  color: white;
+  font-weight: 200;
+  font-size: 1.1rem;
+  margin-left: 8%;
+  margin-top: 0%;
+}
+
+footer p{
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 100;
+  color: white;
+}
+
+
+
+/*header*/
+
+nav{
+  background-color: #fff;
+  border-bottom: 1px grey solid;
+}
+
+.headerlogo {
+  width: 20%;
+  height: 20%;
+}
+nav ul{
+margin-left: 15%;
+}
+
+nav ul li{
+  margin-left: 1em;
+}
+
+nav ul li a{
+  font-size:1.1em;
+  color: #000;
+  font-weight: bold;
+  text-shadow: 1.3px 1.3px #FFF;
+}
+
+.space{
+  margin-right: 9em;
+}
+
+.space2{
+  margin-left: 3em;
+}
+
+
+.headerimg{
+  padding-top: 4em;
+    margin: 3% 43%;
+    width: 7%;
+    position: fixed;
+}
+
+/*retouche div esthétisme*/
+
+#centrage {
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+#marginbottom{
+  margin-bottom:0.5em;
+}
+
+.divborder{
+  border: 0.5em solid #ffffff;
+  border:0.5em 0.5em 0.5em 0.5em;
+}
+.divcenterhori {
+display:flex;
+}
+.divcenterverti {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:2em;
+  width:80em;
+}
+.padding {
+  padding: 1em;
+}
+/* button*/
+.button3 {
+  background-color: #f00b4e;
+  border-radius: 50%;
+  border:1px solid black;
+}
+.button2 {
+    background-color: #f00b4e;
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px grey;
+}
+.taille {
+  max-height: 330px;
+}
+
+/*Page formulaire */
+
+.carte{
+justify-content: center;
+}
+
+
+
+ .field{
+   padding-top: 10px;
+ }
+
+.boutonform{
+  padding-top: 20px;
+}
+
+/* bloc de gauche (formulaire) */
+
+
+
+/* bloc de gauche (horaires) */
